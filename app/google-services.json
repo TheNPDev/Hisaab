@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783360148938",
+    "project_id": "hisaab-e2208",
+    "storage_bucket": "hisaab-e2208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783360148938:android:e6aee0ffa79c703aa67b33",
+        "android_client_info": {
+          "package_name": "com.example.hisaab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783360148938-0a7p6rkev7irakognj2ci5sm6bmp0jq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9fndW8TBpO2O47XhngTBe5tCftJFMGhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783360148938-0a7p6rkev7irakognj2ci5sm6bmp0jq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
