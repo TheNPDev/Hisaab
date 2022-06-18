@@ -30,7 +30,7 @@ public class home extends AppCompatActivity {
     EditText budget,expenditure,credit;
     TextView saving;
     Button save , account,clear;
-    int b , e ,s;
+    int b , e ,s,c;
 
 
 
@@ -69,21 +69,20 @@ public class home extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (budget != null){
                 double b = Double.parseDouble(budget.getText().toString());
                 double e = Double.parseDouble(expenditure.getText().toString());
                 double c = Double.parseDouble(credit.getText().toString());
                 double s = b-e+c;
                 saving.setText(Double.toString(s));}
-                else{
-                    double s=5;
-                    saving.setText(Double.toString(s));}
-            }
         });
         clear = findViewById(R.id.clear);
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                budget.setText(null);
+                expenditure.setText(null);
+                credit.setText(null);
+                saving.setText(null);
 
 
             }
